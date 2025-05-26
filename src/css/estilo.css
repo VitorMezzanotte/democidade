@@ -30,7 +30,7 @@ header .logo {
   font-family: 'Orbitron', sans-serif;
   font-size: 2.5rem;
   font-weight: 700;
-  color: #1F51FF;
+  color: #f3f71e;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
@@ -39,7 +39,7 @@ header .logo {
 nav {
   display: flex;
   justify-content: center;
-  background-color: #333;
+  background-color: #644503;
   padding: 0.5rem;
 }
 
@@ -55,7 +55,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #081f72;
+  background-color: #000d3a;
 }
 
 /* Seções */
@@ -70,7 +70,7 @@ section {
 /* Home */
 .home {
   text-align: center;
-  background: linear-gradient(135deg, #112f99, #0f0600);
+  background: linear-gradient(135deg, #6e3303, #0f0600);
   color: #FFFFFF;
   padding: 3rem;
   border-radius: 8px;
@@ -89,7 +89,7 @@ section {
 }
 
 .home .btn {
-  background-color: #062db9;
+  background-color: #52370e;
   color: #FFFFFF;
   padding: 1rem 2rem;
   border-radius: 5px;
@@ -101,7 +101,30 @@ section {
 }
 
 .home .btn:hover {
-  background-color: #FF6600;
+  background-color: #d15808;
+}
+
+.home {
+  text-align: center;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imagem-home {
+  width: 90%;
+  max-width: 600px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.imagem-home:hover {
+  transform: scale(1.03);
 }
 
 /* Cards */
@@ -178,7 +201,7 @@ form textarea {
 
 form button {
   padding: 1rem;
-  background-color: #1F51FF;
+  background-color: #382a03;
   color: #FFFFFF;
   border: none;
   border-radius: 5px;
